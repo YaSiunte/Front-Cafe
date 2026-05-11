@@ -8,12 +8,6 @@ body {
 /*---------------------------------------------------*/
 header{
     background-color: #2a1a13;
-    /* color: #FFFFFF;
-    padding: 40px 0px 40px 72px;
-    margin: 0;
-    font-family: 'Nothing You Could Do';
-    font-size: 40px;
-    height: 10px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,7 +17,7 @@ header{
 a {
     color: #fff;
     font-family: 'Playfair';
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: 500;
     padding: 20px;
@@ -34,7 +28,7 @@ a {
 a:hover {
     color: #926958;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 h1 {
@@ -66,4 +60,6 @@ button:hover {
     height: 500px;
     object-fit: cover;
 }
+
+
 
