@@ -60,6 +60,37 @@ button:hover {
     height: 500px;
     object-fit: cover;
 }
+.sobre{
+    background-color: #2a1a13;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
 
+.texto{
+    width: 60%;
+}
 
+h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+.graos {
+    display: flex;
+    object-fit: contain;
+}
+
+.graos img{
+    width: 600px;
+    float: right;
+}
 
