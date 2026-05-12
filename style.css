@@ -137,3 +137,39 @@ h2{
         right: 0;
     }
 }
+
+/*--------------------------------------------------*/
+
+.container {
+    position: relative
+    display: inline block;
+}
+
+.ice1 img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.matcha img {
+    width: auto;
+    heigth: auto;
+    object-fit: cover;
+    right: 0px;
+}
+
+.ice2 img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.limitado {
+    background-color: #BDCCA5
+}
+
+.title {
+    color:#34480F;
+    font-family:;
+    font-size: 100px;
+}
