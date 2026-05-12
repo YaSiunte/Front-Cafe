@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair&family=Quicksand&family=Racing+Sans+One&displaydisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair&family=Quicksand&family=Gravitas+One&family=Titan+One&display=swap');
 
 body {
     margin: 0;
@@ -193,4 +193,43 @@ p{
 .title {
     color:#34480F;
     font-size: 100px;
+    font-family: 'Gravitas One';
+    font-size: 70px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.nome {
+    color: #647124;
+    font-family: 'Titan One';
+    font-size: 50px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.texto2 {
+    color: #212D04;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.botao2 {
+    font-family: 'Gravitas One';
+    background-color: #203006;
+    color: #C2CA93;
+    border: none;
+    padding: 30px 40px;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 60px;
+    transition: all .2s ease-in-out;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #647124;
+    color: #fff;
 }
