@@ -121,19 +121,45 @@ h2{
     font-family:Quicksand;
 }
 
+.sobre{
+    background-color: #2a1a13;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
 
+.texto{
+    width: 80%;
+}
 
+h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
 
 .sobre {
     position: relative;
 
     &:before {
         position: absolute;
-        background-image: url(./images/bolo.jpg);
+        background: url(./images/cafe333.png) no-repeat;
+        background-position: top right;
+        background-size: contain;
         content: '';
-        width: 200px;
-        height: 550px;
-        top: -53px;
+        width: 500px;
+        height: 860px;
+        top: -20px;
         right: 0;
     }
 }
+
+
