@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair&family=Quicksand&family=Racing+Sans+One&displaydisplay=swap');
 
 body {
     margin: 0;
@@ -61,5 +61,79 @@ button:hover {
     object-fit: cover;
 }
 
+.pedidos{
+
+    padding: 50px;
+}
+
+h2{
+    font-family: 'Racing Sans One';
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.cards{
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.card{
+
+    background-color: #9b6847;
+    width: 220px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img{
+
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.card p{
+
+    color: white;
+    font-size: 25px;
+}
+
+.card button{
+
+    background-color: #d8c0aa;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:Quicksand;
+}
 
 
+
+
+.sobre {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        background-image: url(./images/bolo.jpg);
+        content: '';
+        width: 200px;
+        height: 550px;
+        top: -53px;
+        right: 0;
+    }
+}
