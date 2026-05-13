@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair&family=Quicksand&family=Gravitas+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Playfair&family=Quicksand&family=Gravitas+One&family=Titan+One&family=Racing+Sans+One&display=swap');
 
 body {
     margin: 0;
@@ -73,6 +73,7 @@ h2{
     font-size: 60px;
     font-style: italic;
     margin-bottom: 50px;
+    font-weight: 100;
 }
 
 .cards{
@@ -121,6 +122,8 @@ h2{
     font-family:Quicksand;
 }
 
+
+
 .sobre{
     background-color: #2a1a13;
     color: white;
@@ -134,10 +137,11 @@ h2{
     width: 80%;
 }
 
-h2{
+.texto h2{
     font-size: 70px;
     margin-bottom: 30px;
     font-style: italic;
+    text-align: left;
 }
 
 p{
@@ -229,7 +233,7 @@ p{
     margin-left: 20px;
 }
 
-button:hover {
+.botao2:hover {
     background-color: #647124;
     color: #fff;
 }
